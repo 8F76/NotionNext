@@ -15,6 +15,7 @@ const BLOG = {
 
   AUTHOR: 'Lyrics', // 您的昵称 例如 tangly1024
   BIO: 'NEFU CS Sophomore | Acmer', // 作者简介
+  AVATAR: '/avatar.jpg', // <-- 新添加的头像路径
   LINK: 'https://notion-next-three-psi-33.vercel.app/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, 博客', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
